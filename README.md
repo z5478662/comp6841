@@ -130,3 +130,4 @@ This project is for **educational purposes only** and should never be used to di
 ## 🧪 Credits
 
 Inspired by YouTube tutorials, GitHub offset dumpers, Cheat Engine guides, and official CS2 documentation.
+Bunny Hop Hack can be seen working in my video.
