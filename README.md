@@ -95,6 +95,32 @@ It also reinforced important lessons about the ethics of software security:
 
 ---
 
+
+## 🧾 C++ Attempt (CS:GO Version)
+
+Before switching to Python and CS2, I initially attempted to create a bunny hop hack for the original **CS:GO** using C++ and the Windows API and watching youtube tutorials.
+
+### 🗂️ Files
+
+You can find these files in the `csgo_bhop_cpp/` folder:
+
+- `main.cpp` – Bunny hop logic
+- `memory.cpp` / `memory.h` – A reusable Memory class using Windows API (e.g. `OpenProcess`, `ReadProcessMemory`, `WriteProcessMemory`)
+
+### 📌 Why It Was Abandoned
+
+After building and debugging the code in Visual Studio, I discovered that **CS:GO was deprecated in 2023** and could no longer be installed or launched through Steam. As a result, I was unable to test or use this version of the hack.
+
+However, writing this code taught me:
+
+- How to use Windows API for process access
+- How to search for and write memory values in C++
+- How to structure a modular memory hacking framework
+- The complexity of using lower-level languages for direct memory access
+
+This experience gave me foundational knowledge I later applied in Python when targeting **CS2**, which has a more active player base and current memory offsets available.
+
+
 ## 📌 Disclaimer
 
 This project is for **educational purposes only** and should never be used to disrupt public servers or gain unfair advantages in competitive play. Doing so violates both **game terms of service** and basic ethical principles.
